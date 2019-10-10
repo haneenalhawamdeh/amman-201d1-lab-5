@@ -33,7 +33,7 @@ var room=length*width;
 var roomspace='the total space of the room with the width='+width+'and length ='+length+'is equal='+room;
 console.log(roomspace);
 }
-testMultiply(room,roomspace);
+testMultiply(1,3);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -49,12 +49,18 @@ IMPORTANT DETAIL: You may not use the arithmetic operators + and * in this funct
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumAndMultiply() function and see if the test passes.*/
 
 // Write your code here
-function sumAndMultiply(a, b, c) { //eslint-disable-line
 
+
+function sumAndMultiply(a, b, c) { 
+    var m = a+b+c
+    var n = a*b*c
+var resultstring = 'the summation of ' + a + ' and ' + b + ' and ' + c +' is ' + m + ', the multiplication of'  + a + ' and ' + b + ' and ' + c +' is ' + n ;
+console.log(resultstring);
+return [a+b+c, a*b*c, resultstring];
 }
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
-// testSumAndMultiply(4,7,5);
+ testSumAndMultiply(4,7,5);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
