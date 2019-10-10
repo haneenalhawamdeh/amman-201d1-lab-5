@@ -1,0 +1,10 @@
+function haneen (){
+
+
+
+
+
+
+
+}
+haneen ();
