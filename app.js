@@ -30,9 +30,8 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function multiply(a,b){
 var c=a*b;
-var mult='the product of '+a+' and '+b+' is '+c+'.';
-console.log(mult);
-return[c,mult];
+
+return[c,"The product of " + a +" and " + b + " is " + c + "."]
 }
 testMultiply(5,9);
 
